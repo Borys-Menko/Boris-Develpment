@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller2">
+    <children>
+        <AnchorPane layoutY="63.0" prefHeight="337.0" prefWidth="700.0" style="-fx-background-color: #fafafa;">
+            <children>
+                <TextField fx:id="answerField2" layoutX="265.0" layoutY="251.0" />
+                <Label layoutX="11.0" prefHeight="210.0" prefWidth="678.0" text="2.Потім  ви присідаєте 30 разів за 40 секунд, ще 5 секунд дається на знаходження пульсової точки і за 15 секунд до хвилини в стоячому стані досліджуємий підраховує пульс, значення якого переводить на ЧСС у хвилину (Р2)." wrapText="true">
+                    <font>
+                        <Font size="21.0" />
+                    </font>
+                </Label>
+                <Button fx:id="next2" layoutX="320.0" layoutY="287.0" mnemonicParsing="false" text="Далі" />
+            <Label fx:id="exeptionField2" layoutX="263.0" layoutY="221.0" prefHeight="26.0" prefWidth="177.0">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            </children>
+        </AnchorPane>
+        <Label layoutX="72.0" layoutY="14.0" prefHeight="37.0" prefWidth="569.0" text="Визначення  стану Серцево-судинної Системи" textFill="WHITE">
+            <font>
+                <Font size="23.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller4">
+    <children>
+        <AnchorPane layoutY="63.0" prefHeight="337.0" prefWidth="700.0" style="-fx-background-color: #fafafa;">
+            <children>
+                <Label layoutX="243.0" prefHeight="47.0" prefWidth="198.0" text="Результат тесту:" wrapText="true">
+                    <font>
+                        <Font size="21.0" />
+                    </font>
+                </Label>
+                <Button fx:id="finish" layoutX="320.0" layoutY="287.0" mnemonicParsing="false" text="Вихід" />
+            <Label fx:id="textResult" layoutX="24.0" layoutY="40.0" prefHeight="153.0" prefWidth="656.0">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Label>
+            </children>
+        </AnchorPane>
+        <Label layoutX="72.0" layoutY="14.0" prefHeight="37.0" prefWidth="569.0" text="Визначення  стану Серцево-судинної Системи" textFill="WHITE">
+            <font>
+                <Font size="23.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
